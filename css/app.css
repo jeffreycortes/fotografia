@@ -64,11 +64,15 @@ h1{
 	display: flex;
 	flex-flow: row wrap;
 }
-#ImgInferior div{
+#ImgInferior figure{
 	flex-grow: 1;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	width: 50%;
+}
+#ImgInferior figure img{
+	width: 70%;
 }
 
 figure{
@@ -124,6 +128,7 @@ footer ul{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	max-width: 33%;
+	width: 33%;
 }
 #Galeria figure img{
 	max-width: 90%;
@@ -157,6 +162,9 @@ footer ul{
 	}
 	footer article{
 		max-width: 100%;
+		width: 100%;
+	}
+	#ImgInferior figure, #ImgInferior figure img{
 		width: 100%;
 	}
 	#Galeria figure{
